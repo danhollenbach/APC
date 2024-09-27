@@ -1,2 +1,3 @@
-# APC-
-📌 A guide to ease the freshmen lives in UnB
+# *APC* - "*Algoritmos e Programação de Computadores*"
+
+
