@@ -288,32 +288,8 @@ While there is no theoretical limit to the number of nested loops, using more th
 
 
 
-
-
-
-Understanding the different types of loop structures in programming—specifically while and do-while loops—enables more effective control flow in coding.
-
-Summary
-Introduction to Loop Structures: The content discusses repetition structures in programming, focusing on conditional loops.
-Laço while (While Loop):
-Executes a block of code as long as a specified condition is true.
-Begins with a condition check before executing the loop.
-Example 1: Validates user input for gender until correct values ('M', 'm', 'F', 'f') are provided before reading the year.
-Example 2: Calculates the factorial of a given number by multiplying from 1 to the number.
-Laço do-while (Do-While Loop):
-Executes a block of code first and then checks a condition afterward; guarantees at least one execution.
-Example: Reads integers and sums them until the user enters 0. Even if 0 is entered first, the body executes once.
-Recommended Exercises: List includes various problems (e.g., calculating averages, identifying odd/even numbers) to reinforce understanding of loop concepts.
-Authors: Created by Thiago Veras and Giovanni M Guidini.
-Related queries:
-
-What are the differences between while and do-while loops?
-How is user input validated in the provided examples?
-What programming problems can help practice loop structures?
-
-
-Key Takeaway
-Subalgorithms, or functions, are essential for structuring and maintaining code effectively, allowing modular design, reducing redundancy, and facilitating debugging.
+### Functions 🛠️
+or functions, are essential for structuring and maintaining code effectively, allowing modular design, reducing redundancy, and facilitating debugging.
 
 Summary
 Definition of Subalgorithms: Subalgorithms are small, self-contained programs (functions) that can be reused multiple times within a larger program.
@@ -629,7 +605,7 @@ Being real, the lack of professionalism of both teachers is something apart. *Ca
 *Do you feel that something is missing?*
 Open an issue or a pull request and help me make a better repo for our new freshmen!
 ## Extras 🎁
-- [link](https://carlacastanho.github.io/Material-de-APC/) to Carla's site.
+- [link](https://carlacastanho.github.io/Material-de-APC/) to Carla's site (*The monitors did it*).
 - [link](https://www.onlinegdb.com/online_c_compiler) to a online *C* compiler.
 - [link](https://www.youtube.com/playlist?list=PL8iN9FQ7_jt4DJbeQqv--jpTy-2gTA3Cp) to a complete playlist of *C language* on youtube. (*it's in portuguese*)
 - [link](https://stackoverflow.com/) to Stack *Overflow*, where you can find answers to your questions.
