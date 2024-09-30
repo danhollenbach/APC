@@ -4,6 +4,33 @@ _APC_ is a first semester subject of the _Computer Science_ course at _UnB_. It'
 
 _obs._ This repo is based on my experience, it can be different for you.
 
+## Topics 📋
+
+- [Exercises 📝](#ancora1)
+- [Project 👨‍💻](#ancora2)
+- [Examns 🧠](#ancora3)
+- [Content 📚](#ancora4)
+  - [Algorithms 🧮](#ancora5)
+    - [Representation of Algorithms 📊](#ancora6)
+    - [Computational Algorithms 🤖](#ancora7)
+  - [Programming in C 🖥️](#ancora8)
+    - [Basic Structure 📜](#ancora9)
+    - [Conditional Structures 🤓](#ancora10)
+    - [Loops 🔄](#ancora11)
+    - [Pointers 🧐](#ancora12)
+    - [Functions 🛠️](#ancora13)
+    - [Arrays 📁](#ancora14)
+    - [Multidimensional Arrays 🗃️](#ancora15)
+    - [Sorting algorithms 1️⃣,2️⃣,3️⃣, ...](#ancora16)
+    - [Strings 🧵](#ancora17)
+    - [Structs 🏗️](#ancora18)
+    - [File Handling 📃](#ancora19)
+- [Professors Feedback 👨‍🏫](#ancora20)
+- [Contributing 🤝](#ancora21)
+- [Extras 🎁](#ancora22)
+
+<a name="ancora1"></a>
+
 ## Exercises 📝
 
 The exercises is basic a list of problems in a online judge, [_Beecrowd_](https://judge.beecrowd.com), where you'll have to solve them using _C language_ (_it can change to python or Java, depending on your teacher_). The problems are divided into categories, like: _Beginner_, _Ad-Hoc_, _Strings_, _Data Structures_, etc. The exercises are very important because they'll help you to understand the concepts and to get used to coding. Our lists were made by _Vinícius Ruela_. **_Do as many exercises as you can_**, it's the best way to learn how to code and the exam is based on them, 3 of beecrowd problems.
@@ -14,11 +41,15 @@ _obs._ _These repos may help!_ &ensp; -> &ensp; [_Beecrowd-Solutions_](https://g
 
 - > In _Beecrowd_, go to preferences and turn on the _"Show problem subject"_ configuration (_it helps a lot_!).
 
+<a name="ancora2"></a>
+
 ## Project 👨‍💻
 
 The project is individual and different for each semester. Mine was a console game based on NumberSums, a grid game where you must erase numbers to reach a column or a line sum. It is very important cause it's the best way to really learn how to code. You'll have to use all the concepts you've learned in the semester to make it work.
 
 _obs._ *You can check my project [*here*](https://github.com/danhollenbach/APC_Project_2024.1-AddNums), it's commented in english, really easy to understand what's going on.*
+
+<a name="ancora3"></a>
 
 ## Exams 🧠
 
@@ -26,9 +57,13 @@ As mentined before the exams are based on the exercises, it can be a simple prob
 
 _obs._ _My past exams can be seen [here](https://github.com/LucasMABF/UnB/tree/main/2024.1/APC/provas)._
 
+<a name="ancora4"></a>
+
 # Content 📚
 
 This tab is intended to summarize the content, it's very important to know what you're going to learn.
+
+<a name="ancora5"></a>
 
 ## Algorithms 🧮
 
@@ -44,6 +79,8 @@ The representation of algorithms is essential for solving computational problems
 
 - > _Changing a Tire:_ Steps outlined to generalize the solution for any car.
 
+<a name="ancora6"></a>
+
 ### Representation of Algorithms 📊
 
 There are various forms of _Representation of Algorithms_ without a clear consensus on the best one. Each offers unique advantages and drawbacks:
@@ -51,6 +88,8 @@ There are various forms of _Representation of Algorithms_ without a clear consen
 - **_Narrative Description:_** Expresses algorithms in natural language, which can introduce ambiguities.
 - **_Flowchart:_** Visual representation of steps but less emphasis in this context.
 - **_Pseudocode:_** Simplified code-like representation, focusing on logic more than implementation specifics.
+
+<a name="ancora7"></a>
 
 ### Computational Algorithms 🤖
 
@@ -75,9 +114,13 @@ Steps and structures necessary to solve problems using programming languages and
   - _Logical Expressions:_ Used to assess conditions and return boolean values.
   - _Logical Operators:_ Include _AND_, _OR_, and _NOT_ that return boolean results.
 
+<a name="ancora8"></a>
+
 ## Programming in C 🖥️
 
 The _C programming language_, created in 1972, is a versatile, high-performance language widely used for system software development, including operating systems and compilers. It gained popularity for its efficiency and adaptability, particularly in the Unix operating system. The language is portable and provides high execution speed, making it suitable for a variety of projects. The course focuses on the ANSI standard of C, covering basic to advanced elements throughout the semester.
+
+<a name="ancora9"></a>
 
 ### Basic Structure 📜
 
@@ -92,12 +135,12 @@ The _C programming language_, created in 1972, is a versatile, high-performance 
 - **_Variable Types:_**
   Variables in C require a defined type, affecting memory allocation and data interpretation. Some common types include:
 
-      - ```int``` -> Integer values.
-      - ```float``` -> Floating-point values.
-      - ```char``` -> Single character values.
-      - ```double``` -> Double-precision floating-point values.
+  - `int` -> Integer values.
+  - `float` -> Floating-point values.
+  - `char` -> Single character values.
+  - `double` -> Double-precision floating-point values.
 
-          *obs.* *For a more complete overview about *C* types click [here](https://en.wikipedia.org/wiki/C_data_types).*
+    _obs._ *For a more complete overview about *C* types click [here](https://en.wikipedia.org/wiki/C_data_types).*
 
 - **_Declaring..._**
 
@@ -121,15 +164,19 @@ _obs._ The format specifier `%d` is used for integers, `%f` for floating-point n
 
 - **_Global vs Local Variables:_**
   _Global variables_ exist throughout the program, while _local variables_ only exist within their defined scope. - _Caution against overusing global variables; they complicate debugging and reduce the modularity of code._ - _Scope Precedence: Local variables take precedence over global ones even if they share the same name._
-  `c    
+
+  ```c 
     #include <stdio.h>
     int x = 10; // global variable
+
     int main() {
         int x = 20; // local variable
         printf("%d", x); // prints 20
         return 0;
     }
-    `
+  ```
+
+<a name="ancora10"></a>
 
 ### Conditional Structures 🤓
 
@@ -263,6 +310,8 @@ switch (day) {
 }
 ```
 
+<a name="ancora11"></a>
+
 ### Loops 🔄
 
 Repetitive tasks are common in programming, and loops provide an efficient way to execute code multiple times based on specified conditions. The _C language_ offers three primary loop structures: for, while, and do-while loops.
@@ -361,6 +410,8 @@ _obs._ _The output of the nested loop example will display the multiplication ta
 
 While there is no theoretical limit to the number of nested loops, using more than three is rarely necessary or efficient. Excessive nesting can lead to code complexity and reduced readability, making it challenging to maintain and debug.
 
+<a name="ancora12"></a>
+
 ### Pointers 🧐
 
 Pointers are essential in _C programming_ for memory management and efficient data manipulation. They store memory addresses, allowing for direct access to variables and functions. Understanding pointers is crucial for mastering the language and optimizing code performance.
@@ -404,6 +455,8 @@ int main() {
     return 0;
 }
 ```
+
+<a name="ancora13"></a>
 
 ### Functions 🛠️
 
@@ -497,6 +550,8 @@ int factorial(int n) {
 }
 ```
 
+_obs._ _Recursion can be less efficient than iterative solutions due to the overhead of function calls and stack memory usage._
+
 #### Multiple Returns:
 
 Functions can simulate multiple returns by using pointers to modify variables passed as arguments. This technique allows for more than one value to be returned from a function.
@@ -508,7 +563,9 @@ void multipleReturns(int a, int b, int* sum, int* product) {
 }
 ```
 
-### Arrays 📦
+<a name="ancora14"></a>
+
+### Arrays 📁
 
 _Arrays_, also known as _vectors_, are essential data structures that allow for the storage and manipulation of multiple same type values using a single variable. They are particularly useful for managing large datasets efficiently.
 
@@ -538,6 +595,59 @@ void printArray(int arr[], int size) {
     }
 }
 ```
+
+<a name="ancora15"></a>
+
+### Multidimensional Arrays 🗃️
+
+The efficient use of multidimensional arrays, particularly matrices, can significantly optimize memory management and data organization when handling large datasets.
+
+#### Matrices:
+
+Two-dimensional arrays essential for organizing data in rows and columns. They are commonly used in various applications, including image processing and mathematical computations.
+
+- _Function Parameters with Matrices:_
+
+  - _Using array notation:_
+
+    - The function header should include the matrix type.
+    - The sizes for dimensions beyond the first must be specified to ensure accurate memory access.
+
+    _obs._ _This applies to arrays with more than one dimension too._
+
+  ```c
+  void printMatrix(int matrix[][3], int rows) {
+      for (int i = 0; i < rows; i++) {
+          for (int j = 0; j < 3; j++) {
+              printf("%d ", matrix[i][j]);
+          }
+          printf("\n");
+      }
+  }
+  ```
+
+  - Using a pointer.
+    - The function header should include a pointer to the matrix and the sizes of the dimensions.
+    - The matrix is accessed using pointer arithmetic to navigate through memory locations.
+
+  ```c
+      void printMatrix(int *matrix, int rows, int cols) {
+          for (int i = 0; i < rows; i++) {
+              for (int j = 0; j < cols; j++) {
+                  printf("%d ", *(matrix + i * cols + j));
+              }
+              printf("\n");
+          }
+      }
+  ```
+
+#### Memory Management:
+
+Arrays are stored in contiguous memory locations, in a linear way, with elements aligned based on their data types. They represent a multidimensional matrix but are stored as a one dimensional array. Understanding the memory layout is crucial for accurate address calculations when accessing matrix elements.
+
+_obs._ _To learn more about the topic click [here](https://www.ime.usp.br/~pf/algorithms/chapters/dynamic-allocation.html)._
+
+<a name="ancora16"></a>
 
 ### Sorting algorithms 1️⃣,2️⃣,3️⃣, ...
 
@@ -626,204 +736,187 @@ void optimizedBubbleSort(int arr[], int size) {
 The analysis of algorithms determines their correctness and performance in terms of time and space complexity.
 [Big-O notation](https://en.wikipedia.org/wiki/Big_O_notation) is essential for understanding the efficiency of algorithms and comparing their performance.
 
-### Multidimensional Arrays 📁
+<a name="ancora17"></a>
 
-The efficient use of multidimensional arrays, particularly matrices, can significantly optimize memory management and data organization when handling large datasets.
+### Strings 🧵
 
-#### Matrices:
+Strings are sequences of characters stored in memory as a array, with each character represented by a numerical code. The `<string.h>` library provides various functions for string operations, simplifying common tasks like concatenation (`strcat`), comparison (`strcmp`), and length measurement (`strlen`). Understanding how they are represented in _C_ is crucial for effective manipulation and utilization of textual data within software applications. By mastering their manipulation techniques, programmers can develop robust applications that handle textual data efficiently.
 
-Two-dimensional arrays essential for organizing data in rows and columns. They are commonly used in various applications, including image processing and mathematical computations.
+#### _Ex._
 
-- _Function Parameters with Matrices:_
+```c
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char str_input[20];
+    char str1[20] = "Hello";
+    char str2[20] = " World";
 
-Discusses how matrices can be passed as parameters to functions using two approaches:
-Using a pointer.
-Using array notation, with an emphasis on explicitly declaring sizes for dimensions beyond the first.
-Code Examples:
+    gets(str_input); // Read input and store in string_input
+    printf("String 1: %s\n", str1); // String 1: "Hello"
+    printf("String 2: %s\n", str2); // String 2: " World"
+    strcat(str1, str2); // Gather strings 1 and 2 and store in string 1
+    printf("Concatenated String: %s\n", str1); // print "Hello World"
+    printf("Length of String 1: %d\n", strlen(str1));   // Length of String 1: 12
+    strcpy(str2, "Goodbye");    // Copy "Goodbye" to string 2
+    printf("Copied String: %s\n", str2); // Copied String: "Goodbye". Was " World"
+    return 0;
+}
+```
 
-Provides example code demonstrating how to count even numbers in a matrix and display the matrix.
-Offers a downloadable code sample for further exploration.
-Memory Management:
+- _Character Representation:_ Computers operate mainly on numbers and utilize numerical codes to represent characters.
+- _Code Systems:_ Various coding standards exist, such as _EBCDIC_, _ASCII_, _UTF-8_, and _UTF-16_, with _[ASCII](https://en.wikipedia.org/wiki/ASCII)_ being commonly used in _ANSI C_ where each character takes up 1 byte.
 
-Describes how multidimensional arrays are stored in contiguous memory locations.
-Explains the necessity of knowing dimensions for accurate address calculations when accessing matrix elements.
-Recommended Exercises:
+_obs._ _There are multiples ways to read a string and `gets()` is a great option._
 
-Lists various programming problems related to matrix manipulation to practice skills and reinforce concepts learned.
-Additional Resources:
+- _String Declaration:_ Strings are declared as character arrays, with the last element reserved for the null character ('\0').
+- _String Initialization:_ Strings can be initialized during declaration or later using assignment.
+- _String Concatenation:_ The `strcat()` function is used to concatenate strings, appending the second string to the first.
+- _String Comparison:_ The `strcmp()` function compares two strings lexicographically, returning 0 if they are equal.
+- _String Length:_ The `strlen()` function calculates the length of a string, excluding the null character.
+- _String Copy:_ The `strcpy()` function copies the contents of one string to another.
 
-Links to extra materials discussing the nuances of passing arrays to functions and other programming practices related to matrices.
-Related queries:
+<a name="ancora18"></a>
 
-What are the advantages of using matrices over one-dimensional arrays in programming?
-How do you correctly pass a 2D array as a function parameter in C?
-Can you explain memory allocation for multidimensional arrays in C?
+### Structs 🏗️
 
-Key Takeaway
-Understanding how strings are represented in C programming is crucial for effective manipulation and utilization of textual data within software applications.
+Structs enable the grouping of related data of different types into a single composite data type, facilitating structured programming and data management. They are particularly useful for organizing complex data structures like employee records, game characters, and more.
 
-Summary
-Character Representation: Computers operate mainly on numbers and utilize numerical codes to represent characters.
-Code Systems: Various coding standards exist, such as EBCDIC, ASCII, UTF-8, and UTF-16, with ASCII being commonly used in ANSI C where each character takes up 1 byte.
-Strings as Character Sequences: A string is defined as a sequence of characters stored in an array, with the end denoted by a null character ('\0').
-String Operations: Multiple operations can be performed with strings in C including measuring string length, string concatenation, accessing individual characters, extracting substrings, comparing strings, and sorting.
-Library Functions: The string.h library provides pre-implemented functions for common string manipulations, reducing the need to write custom code.
-Practical Examples: Code examples provided illustrate how to manipulate strings, including copying, concatenation, and reading inputs that may contain spaces.
-Applications of Strings: Practical applications include problems like calculating complementary DNA strands and checking whether a phrase is a pangram.
-Recommended Exercises: A list of exercises is offered for practice, targeting different aspects of string operations and manipulation.
-Additional Resources: Links to external documentation and ASCII tables are available for further learning.
-Related queries:
+#### _Ex._
 
-What are the main operations possible with strings in C?
-How does the `string.h` library facilitate string manipulation in C?
-Can you explain how to determine if a string is a pangram in C?
+```c
+#include <stdio.h>
+#include <string.h>
 
-Key Takeaway
-Structs enable the grouping of related data of different types into a single composite data type, facilitating structured programming and data management.
+struct Monster {
+    char name[20];
+    int level;
+    int stats[3];
+};
 
-Summary
-Introduction to Structs:
+int main() {
+    struct Monster monster1;
+    struct Monster monster2;
+    printf("Enter monster 1 name: ");
+    gets(monster1.name);
+    printf("Enter monster 1 level: ");
+    scanf("%d", &monster1.level);
+    printf("Enter monster 1 stats: ");
+    for (int i = 0; i < 3; i++) {
+        scanf("%d", &monster1.stats[i]);
+    }
+    printf("Enter monster 2 name: ");
+    gets(monster2.name);
+    printf("Enter monster 2 level: ");
+    scanf("%d", &monster2.level);
+    printf("Enter monster 2 stats: ");
+    for (int i = 0; i < 3; i++) {
+        scanf("%d", &monster2.stats[i]);
+    }
+    printf("Monster 1: %s, Level: %d, Stats: %d %d %d\n", monster1.name, monster1.level, monster1.stats[0], monster1.stats[1], monster1.stats[2]);
+    printf("Monster 2: %s, Level: %d, Stats: %d %d %d\n", monster2.name, monster2.level, monster2.stats[0], monster2.stats[1], monster2.stats[2]);
+    return 0;
+}
+```
 
-Structs, also known as records, allow the grouping of related data of different types.
-Examples include personal information (name, age, gender) and game character attributes.
-Declaration of Structs:
+- _Struct Declaration:_ A new data type is defined using struct, which can include various fields with different data types.
+- _Accessing Struct Fields:_ Individual fields within a struct can be accessed using the dot operator (.) for instances.
+- _Pointers to Structs:_ Structs can be manipulated using pointers, allowing for functions to alter the contained data.
+  - Access can be done either by dereferencing pointers or using the arrow operator (->).
+- _Typedef for Structs:_ Typedef simplifies struct declarations by creating an alias for the struct type.
+- _Array of Structs:_ Arrays can store multiple instances of structs, enabling the management of multiple records.
+- _Sorting Structs:_ Structs can be sorted based on specific fields using sorting algorithms, enhancing data organization.
+- _Memory Layout of Structs:_ Structs are stored in contiguous memory locations, similar to arrays, with attributes aligned according to their data types.
 
-A new data type is defined using struct, which can include various fields with different data types.
-Struct instances can be declared directly or using typedef for easier instantiation.
-Example structure for a monster includes attributes like name, level, and stats.
-Accessing Struct Fields:
+<a name="ancora19"></a>
 
-Individual fields within a struct can be accessed using the dot operator (.) for instances.
-Example code walk-through demonstrates how to gather input for multiple monster instances.
-Pointers to Structs:
+### File Handling 📃
 
-Structs can be manipulated using pointers, allowing for functions to alter the contained data.
-Access can be done either by dereferencing pointers or using the arrow operator (->).
-Structs with Functions:
+Files are organized data entities within non-volatile memory, managed by the operating system as streams of bytes. Understanding file manipulation in _C_ is essential for managing data persistence beyond program execution, particularly with text files.
 
-Examples illustrate the use of structs in functions, such as managing employee records.
-Code snippets show how structs can be used to gather and print employee information.
-Memory Layout of Structs:
+- _File Operations in C:_ Files are managed using pointers (FILE\* fd) and opened using the `fopen()` function with specified access modes.
+- _Writing Data:_ Data can be written back to text files using the `fprintf()` function.
+- _Reading Data:_ Data can be read from text files using functions like `fscanf()`, `fgetchar()`, and `fgets()`.
+- _Positioning in Files:_ The current file position can be managed using functions like `rewind()`, `ftell()`, and `fseek()`.
+- _File Closing:_ Proper file closure is essential for freeing resources and saving changes using the `fclose()` function.
+- _Common File Opening Errors:_ Issues like file non-existence or permission restrictions can prevent successful file access.
+- _Importance of Proper Closure:_ Ensures all operations in the buffer are written to the file, preventing data loss upon program termination.
+- _Error Handling:_ Checking file status after operations is crucial for detecting errors and ensuring proper file handling.
 
-Structs are stored in contiguous memory locations, similar to arrays, with attributes aligned according to their data types.
-Practical Implementations:
+- **_Text files:_** store data as characters.
+  - Opening Modes:
+    - Read ("r")
+    - Write ("w")
+    - Append ("a")
+    - Read/Write ("r+")
+    - Create/Write ("w+")
+    - Append/Read ("a+").
+- **_Binary Files:_** Store data in binary format, allowing for efficient storage and retrieval of complex data structures.
+  - _Advantages of Binary Files:_
+    - Preserve data exactly as in memory.
+    - Support complex data structures like arrays and structs.
+  - _Binary File Visualization:_ Tools like WinHex (Windows) or Linux commands (hexdump, xxd) help visualize binary file content in hexadecimal form.
+  - _Opening Binary Files:_ Similar to text files but with a 'b' in the mode when using `fopen()`.
+  - _Reading and Writing:_ `fread()` and `fwrite()` functions are used for binary file operations, taking parameters like buffer pointer, size, count, and file stream.
+  - _Error Handling and State Checking:_ After operations, file status should be checked for errors using `feof()` and `ferror()` functions.
+  - _Practical Examples:_ Simple examples demonstrate reading from and writing to binary files containing student records using predefined structs.
 
-Multiple practical examples provide insight into defining structs, using arrays of structs, and sorting/processing involving data structures.
-Related queries:
+#### _Ex._
 
-What is the purpose of using structs in programming?
-How do you declare and access fields in a struct?
-What are the memory considerations when using structs?
+```c
+#include <stdio.h>
 
-Key Takeaway
-Understanding file manipulation in C is essential for managing data persistence beyond program execution, particularly with text files.
+int main() {
+    FILE *file;
+    char filename[20];
+    char text[100];
 
-Summary
-Introduction to File Handling: Memory is volatile; hence, files are used to store information persistently even after program execution.
-File Definition: Files serve as organized data entities within non-volatile memory. The operating system manages these files, treating them as streams of bytes.
-File Types:
-Text Files: Each byte represents a character; they are human-readable but occupy more space.
-Binary Files: Data is stored byte by byte as it exists in memory; harder to read but more storage efficient.
-File Operations in C:
-Files are managed using pointers (e.g., FILE\* fd).
-The fopen() function is used to open files, requiring the file name and access mode.
-Opening Modes:
-"r": Read
-"w": Write
-"a": Append
-"r+": Read and Write
-"w+": Create or overwrite and read/write
-"a+": Append and read
-File Closing: Critical for freeing resources and saving changes with fclose().
-Positioning in Files: The current position in a file can be managed using functions like rewind(), ftell(), and fseek().
-Reading Data: Employ fscanf(), fgetchar(), and fgets() to read data from text files.
-Writing Data: Use fprintf() to write data back to text files.
-Common File Opening Errors: Issues such as file non-existence or permission restrictions can prevent successful file access.
-Importance of Proper Closure: Ensures all operations in the buffer are written to the file, preventing data loss upon program termination.
-Related queries:
+    printf("Enter the file name: ");
+    gets(filename);
 
-What are the different modes for opening files in C?
-How do you read and write text files in C?
-What common errors occur while opening files in C?
+    file = fopen
+    (filename, "w");
+    if (file == NULL) {
+        printf("Error opening file.\n");
+        return 1;
+    }
 
-Key Takeaway
-Understanding and working with binary files in programming allows for efficient data storage and retrieval, particularly for complex data types.
+    printf("Enter text to write to the file: ");
+    gets(text);
 
-Summary
-Files and Their Types: Files are abstractions used for non-volatile data storage. They can be categorized as text or binary.
-Binary Files: Binary files consist of a sequence of bytes, where each byte can represent various data types depending on the creator's specifications. They are less readable by humans compared to text files.
-Advantages of Binary Files:
-Ability to save data exactly as it is in memory.
-Support for storing complex data structures such as arrays and structs.
-Binary File Visualization: Tools like WinHex (for Windows) and Linux commands (hexdump or xxd) help visualize binary file content in hexadecimal form, though interpretation must be manual.
-Opening Binary Files: Similar to text files but requires a 'b' in the mode when using the fopen() function. Modes include:
-"rb" for reading
-"wb" for writing
-"ab" for appending
-"r+b", "w+b", "a+b" for read/modifying in various combinations.
-Reading and Writing:
-fread() and fwrite() are functions used for reading and writing binary files, taking parameters such as pointer buffer, size, count, and file stream.
-Example code demonstrates how to use these functions with structs to write and read data.
-Error Handling and State Checking: After operations, it is advisable to check the status of the file to handle errors using feof() and ferror() functions.
-Practical Examples: Simple examples depict reading from and writing to binary files containing student records using predefined structs.
-Related queries:
+    fprintf(file, "%s", text);
+    fclose(file);
 
-What are the key differences between text and binary files?
-How do you check for errors while reading or writing to a binary file?
-Can binary files store complex data types and how?
+    file = fopen(filename, "r");
+    if (file == NULL) {
+        printf("Error opening file.\n");
+        return 1;
+    }
 
-Key Takeaway
-Recursive functions are powerful tools for solving problems defined by smaller instances of themselves but require careful management to avoid issues like stack overflow.
+    printf("Contents of the file:\n");
+    while (fgets(text, 100, file) != NULL) {
+        printf("%s", text);
+    }
 
-Summary
-Functions can be categorized into regular and recursive types.
-Recursive functions call themselves, making them useful for solving recursive problems, which can be defined using smaller instances of themselves.
-Each recursive function must have a base case to prevent infinite recursion.
-The factorial function is a classic example of recursion, with its definition utilizing itself: n! = n \* (n-1)!.
-The stack execution model is crucial for understanding recursion; each recursive call creates a new layer in the memory stack.
-Important aspects of stack execution:
-Each function call has its own parameters and local variables.
-The function at the top of the stack is currently executing, while others wait in line.
-Overuse of recursion can lead to stack overflow, highlighting the importance of the base case in recursive design.
-Recursive solutions can be elegant and straightforward, but they are often less efficient compared to iterative solutions due to overhead.
-Examples of recursive functions include:
-Power calculation: pow_recursivo(int x, int n).
-String reversal: inverter_string(char nome[], char aux[], int n).
-Binary search: binary_search(int v[], int x, int L, int R).
-Recommended exercises focus on implementing recursive solutions to various problems, enhancing understanding and application of recursion.
-Related queries:
+    fclose(file);
+    return 0;
+}
+```
 
-What is a recursive function?
-How does the execution stack work in recursion?
-What are some common pitfalls of using recursion?
-
-Key Takeaway
-Understanding pointers in programming is essential, as they are crucial for memory management and variable reference.
-
-Summary
-Memory Overview: The page discusses RAM as the primary storage for executing programs and storing their variables.
-Memory Size: Explained how memory size is determined by the type of processor (x86 or x64) and its addressing capabilities.
-Usage of Memory: Describes the allocation of memory for variables and how data is read and written as bytes.
-Types of Variables: Introduces how variables are stored as bits in memory and how they are interpreted based on their types.
-Pointer Type: Defines pointers as variables that store memory addresses, demonstrating the syntactic structure to declare pointers in C (e.g., int* ip).
-Void Pointers: Explains the special void* type which can reference any data type and the concept of pointers to pointers.
-Pointer Arithmetic: Discusses referencing and dereferencing using the & (address-of) and \* (dereference) operators in C.
-Pointer Functionality: Highlights how pointers can help access variable values directly through memory addresses, without referencing variable names directly.
-Extra Materials: Includes a conversion table between decimal, hexadecimal, and binary systems.
-Related queries:
-
-What are the differences between pointers and normal variables in C?
-How do you declare a pointer to a void type?
-What is the significance of dereferencing a pointer in C programming?
+<a name="ancora20"></a>
 
 ## Professors Feedback 👨‍🏫
 
 Being real, the lack of professionalism of both teachers is something apart. _Carla Castanho_ doesn't know how to teach, I guess the last time she coded in _C_ was 20 years ago (not even joking), the peak of her class is a slide reading (if she goes to the class). _Franklin Ned_ is a little better, but he's not good either. He knows how to teach, but doesn't seem like he wants. May leave the class earlier to go have some _pastel_ and sugarcane juice. In the other hand, others students say that _Vinícius Ruela_ and _Ishikawa_ are good teachers.
 
+<a name="ancora21"></a>
+
 ## Contributing 🤝
 
 _Do you feel that something is missing?_
 Open an issue or a pull request and help me make a better repo for our new freshmen!
+
+<a name="ancora22"></a>
 
 ## Extras 🎁
 
